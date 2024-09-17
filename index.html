@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Talking Travel</title>
+</head>
+<body>
+
+<header class="header-section">
+    <div class="header-elements-row">
+        <div class="logo">
+            <h1>Talking</h1>
+            <h2>Travel</h2>
+        </div>
+        <nav class="header-menu">
+            <a href="#" class="active">Home</a>
+            <a href="#">Story</a>
+            <a href="#">Gallery</a>
+            <a href="#">Contact Us</a>
+            <div class="header-icons">
+                <div class="divider"></div>
+                <img src="images/Header Search Icon.svg" alt="IconSearchHeader" class="icon">
+                <img src="images/Header Profile.svg" alt="IconSearchProfile" class="icon">
+            </div>
+        </nav>
+    </div>
+</header>
+
+<main class="main-content">
+    <section class="hero-section" style="background-image: url('images/hero\ background\ image.jpg');">
+        <h1>Let’s talk about your next trip!</h1>
+        <p>Share your favorite travel destination and we will feature it in our next blog!</p>
+        <button class="share-button">Share your story</button>
+        <button class="watch-highlights">Watch highlights</button>
+    </section>
+
+    <section class="featured-destination">
+        <h2>FEATURED DESTINATION</h2>
+        <h3>Our swiss adventure blog</h3>
+        <p>Visiting the swiss alps? Want to know the requirements on travelling to Switzerland during the pandemic? Our blog might help!</p>
+        <button class="watch-button">Watch Now</button>
+    </section>
+
+    <section class="adventures-section">
+        <h2>JOIN OUR ADVENTURES</h2>
+        <h3>Discover the world with us</h3>
+        <div class="adventure-cards">
+            <div class="adventure-card">
+                <img src="https://via.placeholder.com/300x200" alt="Iceland">
+                <h4>Iceland</h4>
+                <button class="discover-button">Discover</button>
+            </div>
+            <div class="adventure-card">
+                <img src="https://via.placeholder.com/300x200" alt="Italy">
+                <h4>Italy</h4>
+                <button class="discover-button">Discover</button>
+            </div>
+            <div class="adventure-card">
+                <img src="https://via.placeholder.com/300x200" alt="Dubai">
+                <h4>Dubai</h4>
+                <button class="discover-button">Discover</button>
+            </div>
+            <div class="adventure-card">
+                <img src="https://via.placeholder.com/300x200" alt="Patagonia">
+                <h4>Patagonia</h4>
+                <button class="discover-button">Discover</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="community-section">
+        <h2>LET'S BUILD A COMMUNITY</h2>
+        <h3>Join our next destination</h3>
+        <form class="travel-form">
+            <label for="destination-name">Destination name:</label>
+            <input type="text" id="destination-name" required>
+            
+            <label for="country">Country of Destination:</label>
+            <input type="text" id="country" required>
+            
+            <label for="your-name">Your name:</label>
+            <input type="text" id="your-name" required>
+            
+            <label for="shooting-category">Shooting category:</label>
+            <input type="text" id="shooting-category" required>
+            
+            <label for="photo-description">Describe what kind of photos you want to focus on:</label>
+            <textarea id="photo-description" required></textarea>
+            
+            <button type="submit" class="submit-button">Submit</button>
+        </form>
+    </section>
+
+    <section class="recent-entries">
+        <h2>CATCH UP TO OUR POSTS</h2>
+        <h3>Recent story entries</h3>
+        <div class="entry-container">
+            <div class="large-entry">
+                <img src="https://via.placeholder.com/600x400" alt="Zermatt, Switzerland">
+                <h4>Zermatt, Switzerland</h4>
+                <p>Marvel on the beauty of the iconic Matterhorn. Find the best places to stay that has the best views of this peak...</p>
+                <button class="view-button">View full blog...</button>
+            </div>
+            <div class="small-entries">
+                <div class="small-entry">
+                    <img src="https://via.placeholder.com/300x200" alt="Tuscany, Italy">
+                    <h4>Tuscany, Italy</h4>
+                    <p>The amazing Tuscany is home to famous Renaissance art and architecture and a vast scenic landscape.</p>
+                    <button class="view-button">View full blog...</button>
+                </div>
+                <div class="small-entry">
+                    <img src="https://via.placeholder.com/300x200" alt="Kyoto, Japan">
+                    <h4>Kyoto, Japan</h4>
+                    <p>Kyoto is well known for its temples, gardens, Shinto shrines and wooden houses. It's time to visit Tokyo.</p>
+                    <button class="view-button">View full blog...</button>
+                </div>
+                <div class="small-entry">
+                    <img src="https://via.placeholder.com/300x200" alt="Lofoten Islands, Norway">
+                    <h4>Lofoten Islands, Norway</h4>
+                    <p>Featuring razor-sharp peaks housing the arctic landscape. This astonishing island is perfect for your next postcard.</p>
+                    <button class="view-button">View full blog...</button>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2022 Talking Travel. All Rights Reserved.</p>
+    <nav class="footer-menu">
+        <a href="#" class="active">Home</a>
+        <a href="#">Story</a>
+        <a href="#">Gallery</a>
+        <a href="#">Contact Us</a>
+    </nav>
+</footer>
+
+</body>
+</html>
