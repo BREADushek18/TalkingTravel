@@ -8,7 +8,7 @@
 </head>
 <body>
 
-<header class="header-section">
+<header class="header-section"style="padding: 0 120px;">
     <div class="header-elements-row">
         <div class="logo">
             <h1>Talking</h1>
@@ -21,21 +21,35 @@
             <a href="#">Contact Us</a>
             <div class="header-icons">
                 <div class="divider"></div>
-                <img src="images/Header Search Icon.svg" alt="IconSearchHeader" class="icon">
-                <img src="images/Header Profile.svg" alt="IconSearchProfile" class="icon">
+                <img src="sources/images/Header Search Icon.svg" alt="IconSearchHeader" class="icon">
+                <img src="sources/images/Header Profile.svg" alt="IconSearchProfile" class="icon">
             </div>
         </nav>
     </div>
 </header>
 
-<main class="main-content">
-    <section class="hero-section" style="background-image: url('images/hero\ background\ image.jpg');">
-        <h1>Let’s talk about your next trip!</h1>
-        <p>Share your favorite travel destination and we will feature it in our next blog!</p>
-        <button class="share-button">Share your story</button>
-        <button class="watch-highlights">Watch highlights</button>
-    </section>
 
+<main class="main-content">
+    <section class="hero-section">
+        <div style="text-align: left;">
+            <div class="text-container"></div>
+                <h1>
+                    <span class="highlight">Let’s talk</span> about  <br />
+                    your next trip!
+                </h1>
+                <p>Share your favorite travel destination and we will <br />
+                    feature it in our next blog!</p>
+                <div class="button-container" style="margin-top: 10px;"> 
+                    <div style="display: flex; align-items: center; text-align: left;">
+                        <button class="share-button" style="margin: 0; padding: 10px 20px;">Share your story</button>
+                        <img src="sources/images/Group 678.svg" alt="Watch highlights" style="vertical-align: middle; margin-left: 10px;"/>
+                        <span style="margin-left: 5px; vertical-align: middle;">Watch highlights</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>      
+    
     <section class="featured-destination">
         <h2>FEATURED DESTINATION</h2>
         <h3>Our swiss adventure blog</h3>
@@ -93,38 +107,32 @@
         </form>
     </section>
 
-    <section class="recent-entries">
+    <section class="recent-stories">
         <h2>CATCH UP TO OUR POSTS</h2>
-        <h3>Recent story entries</h3>
-        <div class="entry-container">
-            <div class="large-entry">
-                <img src="https://via.placeholder.com/600x400" alt="Zermatt, Switzerland">
-                <h4>Zermatt, Switzerland</h4>
+        <div class="story-entries">
+            <div class="story-card">
+                <img src="images/zermatt.jpg" alt="Zermatt, Switzerland">
+                <h3>Zermatt, Switzerland</h3>
                 <p>Marvel on the beauty of the iconic Matterhorn. Find the best places to stay that has the best views of this peak...</p>
-                <button class="view-button">View full blog...</button>
+                <button class="read-more">▶</button>
             </div>
-            <div class="small-entries">
-                <div class="small-entry">
-                    <img src="https://via.placeholder.com/300x200" alt="Tuscany, Italy">
-                    <h4>Tuscany, Italy</h4>
-                    <p>The amazing Tuscany is home to famous Renaissance art and architecture and a vast scenic landscape.</p>
-                    <button class="view-button">View full blog...</button>
-                </div>
-                <div class="small-entry">
-                    <img src="https://via.placeholder.com/300x200" alt="Kyoto, Japan">
-                    <h4>Kyoto, Japan</h4>
-                    <p>Kyoto is well known for its temples, gardens, Shinto shrines and wooden houses. It's time to visit Tokyo.</p>
-                    <button class="view-button">View full blog...</button>
-                </div>
-                <div class="small-entry">
-                    <img src="https://via.placeholder.com/300x200" alt="Lofoten Islands, Norway">
-                    <h4>Lofoten Islands, Norway</h4>
-                    <p>Featuring razor-sharp peaks housing the arctic landscape. This astonishing island is perfect for your next postcard.</p>
-                    <button class="view-button">View full blog...</button>
-                </div>
+            <div class="story-card">
+                <img src="images/tuscany.jpg" alt="Tuscany, Italy">
+                <h3>Tuscany, Italy</h3>
+                <p>The amazing Tuscany is home to famous Renaissance art and architecture and a vast scenic landscape. <a href="#">view full blog...</a></p>
+            </div>
+            <div class="story-card">
+                <img src="images/kyoto.jpg" alt="Kyoto, Japan">
+                <h3>Kyoto, Japan</h3>
+                <p>Kyoto is well known for its temples, gardens, Shinto shrines and wooden houses. It's time to visit Tokyo. <a href="#">view full blog...</a></p>
+            </div>
+            <div class="story-card">
+                <img src="images/loften.jpg" alt="Lofoten Islands, Norway">
+                <h3>Lofoten Islands, Norway</h3>
+                <p>Featuring razor-sharp peaks housing the arctic landscape. This astonishing island is perfect for your next postcard. <a href="#">view full blog...</a></p>
             </div>
         </div>
-    </section>
+    </section>    
 </main>
 
 <footer>
