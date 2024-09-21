@@ -175,14 +175,14 @@ body {
 
 .featured-destination {
   display: flex;
-  align-items: flex-start; /* Выравнивание по верхнему краю */
+  align-items: flex-start; 
   text-align: left; 
   padding-left: 140px; 
-  margin-top: 100px; /* Адаптивный отступ сверху */
+  margin-top: 100px; 
 }
 
 .featured-destination img {
-  width: calc(540px * (100vw / 1440)); /* Адаптивная ширина изображения */
+  width: calc(540px * (100vw / 1440)); 
 
   height: auto; 
   border-radius: 8px; 
@@ -191,7 +191,7 @@ body {
 
 .featured-destination .text-container {
   
-  padding-left: 70px; /* Отступ слева для текстового блока */
+  padding-left: 70px; 
   margin-top: 0;
 }
 
@@ -201,7 +201,7 @@ body {
   line-height: 20px;
   letter-spacing: 0.04em;
   text-align: left;
-  color: #8A53FF; /* Цвет заголовков */
+  color: #8A53FF; 
 }
 
 .featured-destination h3 {
@@ -245,112 +245,64 @@ body {
 }
 
 .adventures-section {
-  text-align: center;
-  margin: 40px 0;
+  text-align: center; 
+  margin-top: 100px; 
 }
 
+.adventures-section h2 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: #8A53FF;
 
+}
+
+.adventures-section h3 {
+  font-size: 36px; 
+  margin: 10px 0; 
+  font-family: "ChangaOne-Regular";
+  font-weight: 400;
+  line-height: 40px;
+  text-align: center;
+
+}
 
 .adventure-cards {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
+  display: flex; 
+  justify-content: flex-start; 
+  padding-left: 100px; 
+  padding-right: 110px;
+  margin: 64px 0;
 }
 
 .adventure-card {
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  overflow: hidden;
-  width: 300px;
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
 }
 
 .adventure-card img {
-  width: 100%;
-  height: auto;
+  border-radius: 8px; 
+  width: 90%; 
+  height: auto; 
 }
 
 .adventure-card h4 {
-  margin: 10px 0;
+  margin: 10px 0; 
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
   text-align: center;
+  font-family: "ChangaOne-Regular";
 }
 
-.community-section {
+.adventure-card a {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18px;
   text-align: center;
-  margin: 40px 0;
-}
-
-.travel-form {
-  display: inline-block;
-  text-align: left;
-  background: #f9f9f9;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0px 3px 12px rgba(0, 0, 0, 0.1);
-}
-
-.travel-form label {
-  display: block;
-  margin: 10px 0 5px;
-}
-
-.travel-form input, .travel-form textarea {
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 10px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-}
-
-.travel-form textarea {
-  height: 100px;
-}
-
-.recent-stories {
-    padding: 20px;
-    text-align: center;
-}
-
-.story-entries {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 20px;
-}
-
-.story-card {
-    background: white;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-    padding: 15px;
-    text-align: left;
-}
-
-.story-card img {
-    width: 100%;
-    height: auto;
-}
-
-h2 {
-    font-size: 24px;
-    margin-bottom: 20px;
-}
-
-h3 {
-    font-size: 18px;
-    margin: 10px 0;
-}
-
-p {
-    font-size: 14px;
-    color: #555;
-}
-
-.read-more {
-    background-color: #6a5acd; 
-    color: white;
-    border: none;
-    padding: 10px 15px;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-top: 10px;
+  text-decoration: none; 
+  color: #8A53FF; 
 }
