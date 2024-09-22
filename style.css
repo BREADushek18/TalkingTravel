@@ -1,6 +1,7 @@
 body {
   margin: 0;
   font-family: "Roboto", sans-serif;
+  overflow-x: hidden;
   padding: 20px 0;
 }
 
@@ -183,14 +184,11 @@ body {
 
 .featured-destination img {
   width: calc(540px * (100vw / 1440)); 
-
   height: auto; 
   border-radius: 8px; 
- 
 }
 
 .featured-destination .text-container {
-  
   padding-left: 70px; 
   margin-top: 0;
 }
@@ -230,6 +228,7 @@ body {
   align-items: center; 
   text-align: left; 
 }
+
 .featured-destination .now-image {
   vertical-align: middle; 
 }
@@ -256,7 +255,6 @@ body {
   letter-spacing: 0.04em;
   text-align: center;
   color: #8A53FF;
-
 }
 
 .adventures-section h3 {
@@ -266,14 +264,12 @@ body {
   font-weight: 400;
   line-height: 40px;
   text-align: center;
-
 }
 
 .adventure-cards {
   display: flex; 
   justify-content: flex-start; 
-  padding-left: 100px; 
-  padding-right: 110px;
+  padding-left: 150px; 
   margin: 64px 0;
 }
 
@@ -318,14 +314,14 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background-image: url('sources/images/Community-image.jpg'); /* Укажите путь к вашему фоновому изображению */
+  background-image: url('sources/images/Community-image.jpg'); 
   background-size: cover; 
-  background-position: center; /* Центрирование изображения */
-  z-index: -1; /* Помещаем изображение позади текста */
+  background-position: center; 
+  z-index: -1; 
 }
 
 .community-section h2 {
-  text-align: center; /* Центрирование заголовков */
+  text-align: center; 
   font-size: 18px;
   font-weight: 700;
   line-height: 20px;
@@ -363,39 +359,39 @@ body {
 }
 
 .travel-form {
-  max-width: 512px; /* Максимальная ширина формы */
-  margin: 0 auto; /* Центрирование формы */
-  background: white; /* Фон для формы */
-  padding: 30px; /* Отступы внутри формы */
-  border-radius: 8px; /* Сглаженные углы */
+  max-width: 512px; 
+  margin: 0 auto; 
+  background: white; 
+  padding: 30px; 
+  border-radius: 8px; 
 }
 
 input[type="text"], select, textarea {
-  width: 100%; /* Ширина 100% для всех полей */
-  padding: 10px; /* Отступы внутри полей */
-  margin-bottom: 15px; /* Отступ снизу */
-  border: 1px solid #ccc; /* Граница для полей */
-  border-radius: 4px; /* Сглаженные углы */
-  box-sizing: border-box; /* Учитываем отступы и границы в ширине */
+  width: 100%; 
+  padding: 10px; 
+  margin-bottom: 15px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
   color:#000000;
 }
 
 textarea {
-  height: 100px; /* Высота для текстовой области */
+  height: 100px; 
   font-family: "Roboto-Regular";
 }
 
 .submit-button {
-  background-color: #8A53FF; /* Цвет кнопки */
-  color: white; /* Цвет текста кнопки */
-  border: none; /* Убираем границу */
-  padding: 16px 80px; /* Отступы внутри кнопки */
-  border-radius: 4px; /* Сглаженные углы */
-  cursor: pointer; /* Указатель при наведении */
+  background-color: #8A53FF; 
+  color: white; 
+  border: none; 
+  padding: 16px 80px; 
+  border-radius: 4px; 
+  cursor: pointer; 
 }
 
 .recent-entries {
-  margin: 0 auto; /* Центрирование секции */
+  margin: 0 auto; 
   padding-left: 140px; 
   padding-right: 140px; 
   margin-top: 80px; 
@@ -421,26 +417,26 @@ h3 {
 }
 
 .featured-entry {
-  display: flex; /* Используем Flexbox для выравнивания */
-  margin-bottom: 40px; /* Отступ снизу */
+  display: flex; 
+  margin-bottom: 40px; 
 }
 
 .entry-main {
-  flex: 1; /* Занимает 1/2 доступного пространства */
-  margin-right: 20px; /* Отступ справа */
+  flex: 1; 
+  margin-right: 20px; 
   margin-bottom: 20px;
-  border-radius: 8px; /* Сглаженные углы изображения */
+  border-radius: 8px; 
   background-color: #F9F9F9;
 }
 
 .entry-main img {
-  width: calc(440px * (100vw / 1440)); /* Ширина изображения на 100% */
-  height: auto; /* Автоматическая высота */
+  width: calc(440px * (100vw / 1440)); 
+  height: auto; 
 }
 
 .entry-text {
-  display: flex; /* Используем Flexbox для текста */
-  flex-direction: column; /* Вертикальная ориентация */
+  display: flex; 
+  flex-direction: column; 
   margin-left: 20px;
   margin-right: 20px;
 }
@@ -453,14 +449,14 @@ h4 {
 }
 
 .text-with-button {
-  display: flex; /* Используем Flexbox для абзаца и кнопки */
-  align-items: center; /* Центрируем по вертикали */
+  display: flex; 
+  align-items: center; 
 }
 
 .entry-text p {
-  margin: 0; /* Убираем отступы для абзаца */
+  margin: 0; 
   margin-top: -16px;
-  flex: 1; /* Позволяет абзацу занимать оставшееся пространство */
+  flex: 1; 
   font-size: 16px;
   font-weight: 400;
   color: #576074;
@@ -472,29 +468,29 @@ h4 {
 }
 
 .entry-list {
-  flex: 1; /* Занимает 1/2 доступного пространства */
+  flex: 1; 
 }
 
 .story-item {
-  display: flex; /* Используем Flexbox для story-item */
+  display: flex; 
   padding-bottom: 10px;
   padding-top: 10px;
   padding-left: 10px;
   padding-right: 10px;
-  border-radius: 8px; /* Сглаженные углы изображения */
+  border-radius: 8px; 
   background-color: #F9F9F9;
-  margin-bottom: 20px; /* Отступ снизу для каждого элемента */
+  margin-bottom: 20px; 
 }
 
 .story-item img {
-  width: 200px; /* Ширина изображения в story-item */
-  height: auto; /* Автоматическая высота */
-  border-radius: 8px; /* Сглаженные углы изображения */
-  margin-right: 15px; /* Отступ справа от изображения */
+  width: 200px; 
+  height: auto; 
+  border-radius: 8px; 
+  margin-right: 15px; 
 }
 
 .item-content {
-  flex: 1; /* Занимает оставшееся пространство */
+  flex: 1; 
 }
 
 .item-content h4 {
@@ -512,6 +508,36 @@ h4 {
 
 .item-content a {
   size: 16;
-  color: #007BFF; /* Цвет ссылки */
-  text-decoration: none; /* Убираем подчеркивание */
+  color: #007BFF; 
+  text-decoration: none; 
+}
+
+.footer-section{
+  padding: 0 140px;
+}
+
+.footer-elements-row {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  padding: 0 20px; 
+  color: #939EB4;
+}
+
+.footer-menu {
+  display: flex;
+  gap: 20px; 
+}
+
+.footer-menu a {
+  padding-top: 8px;
+  text-decoration: none; 
+  color: #939EB4;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.footer-menu a.active {
+  padding-top: -0px;
 }
