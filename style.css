@@ -306,3 +306,90 @@ body {
   text-decoration: none; 
   color: #8A53FF; 
 }
+
+.community-section {
+  position: relative; 
+  padding: 40px; 
+}
+
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url('sources/images/Community-image.jpg'); /* Укажите путь к вашему фоновому изображению */
+  background-size: cover; 
+  background-position: center; /* Центрирование изображения */
+  z-index: -1; /* Помещаем изображение позади текста */
+}
+
+.community-section h2 {
+  text-align: center; /* Центрирование заголовков */
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0.04em;
+  color: #8A53FF;
+}
+
+.community-section h3 {
+  margin: 10px 0; 
+  font-size: 44px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: center;
+  font-family: "ChangaOne-Regular";
+  padding-bottom: 30px;
+}
+
+.community-section h4 {
+  margin: 10px 0; 
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: left;
+  font-family: "ChangaOne-Regular";
+}
+
+.community-section p {
+  margin: 10px 0; 
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+  padding-bottom: 20px;
+  font-family: "Roboto-Regular";
+}
+
+.travel-form {
+  max-width: 512px; /* Максимальная ширина формы */
+  margin: 0 auto; /* Центрирование формы */
+  background: white; /* Фон для формы */
+  padding: 30px; /* Отступы внутри формы */
+  border-radius: 8px; /* Сглаженные углы */
+}
+
+input[type="text"], select, textarea {
+  width: 100%; /* Ширина 100% для всех полей */
+  padding: 10px; /* Отступы внутри полей */
+  margin-bottom: 15px; /* Отступ снизу */
+  border: 1px solid #ccc; /* Граница для полей */
+  border-radius: 4px; /* Сглаженные углы */
+  box-sizing: border-box; /* Учитываем отступы и границы в ширине */
+  color:#000000;
+}
+
+textarea {
+  height: 100px; /* Высота для текстовой области */
+  font-family: "Roboto-Regular";
+}
+
+.submit-button {
+  background-color: #8A53FF; /* Цвет кнопки */
+  color: white; /* Цвет текста кнопки */
+  border: none; /* Убираем границу */
+  padding: 16px 80px; /* Отступы внутри кнопки */
+  border-radius: 4px; /* Сглаженные углы */
+  cursor: pointer; /* Указатель при наведении */
+}

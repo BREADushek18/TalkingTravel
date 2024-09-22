@@ -96,27 +96,34 @@
     </section>
 
     <section class="community-section">
+        <div class="background-image"></div>
         <h2>LET'S BUILD A COMMUNITY</h2>
         <h3>Join our next destination</h3>
         <form class="travel-form">
-            <label for="destination-name">Destination name:</label>
-            <input type="text" id="destination-name" required>
-            
-            <label for="country">Country of Destination:</label>
-            <input type="text" id="country" required>
-            
-            <label for="your-name">Your name:</label>
-            <input type="text" id="your-name" required>
-            
-            <label for="shooting-category">Shooting category:</label>
-            <input type="text" id="shooting-category" required>
-            
-            <label for="photo-description">Describe what kind of photos you want to focus on:</label>
-            <textarea id="photo-description" required></textarea>
-            
+            <h4>Share your travels</h4>
+            <p>Suggest a new travel destination that you want to see and we will put it in our blog.</p>
+            <input type="text" name="destination-name" placeholder="Destination Name" required>
+            <select name="country" required>
+                <option value="" disabled selected>Select a country</option>
+                <option value="Russia">Russia</option>
+                <option value="Japan">Japan</option>
+                <option value="Korea">Korea</option>
+                <option value="USA">USA</option>
+            </select>
+            <input type="text" name="name" placeholder="Your Name" required>
+            <select name="shooting-category" required>
+                <option value="" disabled selected>Select a category</option>
+                <option value="art">Art</option>
+                <option value="nature">Nature</option>
+                <option value="science">Science</option>
+                <option value="education">Education</option>
+            </select>
+            <textarea name="description" placeholder="Describe what kind of photos you want to focus on" required></textarea>
             <button type="submit" class="submit-button">Submit</button>
         </form>
     </section>
+    
+    
 
     <section class="recent-stories">
         <h2>CATCH UP TO OUR POSTS</h2>
