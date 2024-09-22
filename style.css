@@ -393,3 +393,125 @@ textarea {
   border-radius: 4px; /* Сглаженные углы */
   cursor: pointer; /* Указатель при наведении */
 }
+
+.recent-entries {
+  margin: 0 auto; /* Центрирование секции */
+  padding-left: 140px; 
+  padding-right: 140px; 
+  margin-top: 80px; 
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21.09px;
+  letter-spacing: 0.06em;
+  text-align: center;
+  color: #8A53FF;
+}
+
+h3 {
+  margin: 10px 0; 
+  font-size: 44px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: center;
+  font-family: "ChangaOne-Regular";
+  padding-bottom: 30px;
+}
+
+.featured-entry {
+  display: flex; /* Используем Flexbox для выравнивания */
+  margin-bottom: 40px; /* Отступ снизу */
+}
+
+.entry-main {
+  flex: 1; /* Занимает 1/2 доступного пространства */
+  margin-right: 20px; /* Отступ справа */
+  margin-bottom: 20px;
+  border-radius: 8px; /* Сглаженные углы изображения */
+  background-color: #F9F9F9;
+}
+
+.entry-main img {
+  width: calc(440px * (100vw / 1440)); /* Ширина изображения на 100% */
+  height: auto; /* Автоматическая высота */
+}
+
+.entry-text {
+  display: flex; /* Используем Flexbox для текста */
+  flex-direction: column; /* Вертикальная ориентация */
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+h4 {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "ChangaOne-Regular";
+}
+
+.text-with-button {
+  display: flex; /* Используем Flexbox для абзаца и кнопки */
+  align-items: center; /* Центрируем по вертикали */
+}
+
+.entry-text p {
+  margin: 0; /* Убираем отступы для абзаца */
+  margin-top: -16px;
+  flex: 1; /* Позволяет абзацу занимать оставшееся пространство */
+  font-size: 16px;
+  font-weight: 400;
+  color: #576074;
+}
+
+.entry-text a {
+  margin-left: 20px;
+  margin-top: -32px;
+}
+
+.entry-list {
+  flex: 1; /* Занимает 1/2 доступного пространства */
+}
+
+.story-item {
+  display: flex; /* Используем Flexbox для story-item */
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 8px; /* Сглаженные углы изображения */
+  background-color: #F9F9F9;
+  margin-bottom: 20px; /* Отступ снизу для каждого элемента */
+}
+
+.story-item img {
+  width: 200px; /* Ширина изображения в story-item */
+  height: auto; /* Автоматическая высота */
+  border-radius: 8px; /* Сглаженные углы изображения */
+  margin-right: 15px; /* Отступ справа от изображения */
+}
+
+.item-content {
+  flex: 1; /* Занимает оставшееся пространство */
+}
+
+.item-content h4 {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "ChangaOne-Regular";
+}
+
+.item-content p {
+  margin-top: -16px; 
+  size: 12;
+  font-family: "Roboto-Regular";
+  color: #576074;
+}
+
+.item-content a {
+  size: 16;
+  color: #007BFF; /* Цвет ссылки */
+  text-decoration: none; /* Убираем подчеркивание */
+}
