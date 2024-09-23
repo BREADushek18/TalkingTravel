@@ -118,13 +118,13 @@ body {
     color: #8A53FF;
 }
 
-.text-section h3 {
+h3 {
     margin: 0;
     font-size: 52px; /* Размер заголовка */
     font-weight: 400;
     line-height: 54px;
-    letter-spacing: -0.04em;
     font-family: "ChangaOne-Regular";
+    color: #434343;
 }
 
 .avatar-section {
@@ -205,6 +205,7 @@ h4 {
     text-align: left;
     font-family: "ChangaOne-Regular";
     margin-bottom: -8px;
+    color: #434343;
 }
 
 p {
@@ -212,6 +213,7 @@ p {
     font-weight: 400;
     line-height: 26px;
     text-align: left;
+    color: #434343;
 }
 
 .destination-content {
@@ -258,23 +260,191 @@ p {
     letter-spacing: -0.04em;
     text-align: left;
     font-family: "ChangaOne-Regular";
-    margin-bottom: 10px; /* Отступ снизу */
+    margin-bottom: 10px; 
 }
 
 .quote p {
     margin-left: -48px;
-    font-family: "Roboto-Regular"; /* Устанавливаем шрифт Roboto */
+    font-family: "Roboto-Regular"; 
     font-style: normal;
-    letter-spacing: 0.5px; /* Увеличиваем расстояние между буквами */
+    letter-spacing: 0.5px; 
+    color: #434343;
 }
 
 .quote button {
     margin-left: -48px;
+    margin-bottom: 80px;
     padding-left: 40px;
-    background-color: #8A53FF; /* Цвет фона кнопки */
-    color: white; /* Цвет текста кнопки */
-    border: none; /* Убираем рамку */
-    padding: 10px 20px; /* Отступы внутри кнопки */
-    cursor: pointer; /* Курсор при наведении */
-    border-radius: 8px; /* Закругленные углы */
+    background-color: #8A53FF; 
+    color: white; 
+    border: none; 
+    padding: 10px 20px; 
+    cursor: pointer; 
+    border-radius: 8px; 
+}
+
+.photo-gallery {
+    display: flex; 
+    justify-content: space-between; 
+    margin-top: 20px; 
+}
+
+.photo-item {
+    flex: 1; 
+    margin-right: 16px; 
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #828181;
+}
+
+.photo-item:last-child {
+    margin-right: 0; 
+}
+
+.photo-item img {
+    width: 100%; 
+    height: auto; 
+    border-radius: 8px; 
+}
+
+.disclaimer {
+    background-color: #FAFAFA; 
+    padding: 20px; 
+    margin-top: 20px; 
+    border-radius: 8px; 
+}
+
+h6 {
+    margin-top: -4px;
+    margin-bottom: -12px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: left;
+    color: #434343;
+}
+
+.community-section {
+    position: relative; 
+    padding: 40px; 
+}
+  
+.background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('sources/images/Community-image.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    z-index: -1; 
+}
+  
+.community-section h2 {
+    text-align: center; 
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0.04em;
+    color: #8A53FF;
+}
+  
+.community-section h3 {
+    margin: 10px 0; 
+    font-size: 44px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+    font-family: "ChangaOne-Regular";
+    padding-bottom: 30px;
+}
+  
+.community-section h4 {
+    margin: 10px 0; 
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: left;
+    font-family: "ChangaOne-Regular";
+}
+  
+.community-section p {
+    margin: 10px 0; 
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+    padding-bottom: 20px;
+    font-family: "Roboto-Regular";
+
+}
+
+.travel-form {
+    max-width: 512px; 
+    margin: 0 auto; 
+    background: white; 
+    padding: 30px; 
+    border-radius: 8px; 
+}
+  
+input[type="text"], select, textarea {
+    width: 100%; 
+    padding: 10px; 
+    margin-bottom: 15px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    color:#000000;
+}
+  
+textarea {
+    height: 100px; 
+    font-family: "Roboto-Regular";
+}
+  
+.submit-button {
+    background-color: #8A53FF; 
+    color: white; 
+    border: none; 
+    padding: 16px 80px; 
+    border-radius: 4px; 
+    cursor: pointer; 
+}
+
+.footer-section{
+    padding: 0 140px;
+}
+  
+.footer-elements-row {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 0 20px; 
+    color: #939EB4;
+}
+
+.footer-elements-row p {
+    color: #939EB4;
+}
+  
+.footer-menu {
+    display: flex;
+    gap: 20px; 
+}
+  
+.footer-menu a {
+    padding-top: 8px;
+    text-decoration: none; 
+    color: #939EB4;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+}
+  
+.footer-menu a.active {
+    padding-top: -0px;
 }
